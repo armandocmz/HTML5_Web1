@@ -1,0 +1,39 @@
+
+nav,header,footer{
+	display: block;
+	background-color: lightyellow;
+	padding: 5px;
+	margin: 5px;
+}
+header{
+	background-color: lightyellow;
+}
+footer{
+	clear:both;
+	background-color: lightgreen;
+	text-align: center;
+}
+
+input:valid+.invalid{
+	visibility: hidden;
+}
+
+input:invalid+.invalid{
+	visibility: visible;
+}
+
+header{
+	display: block;
+
+}
+/*input:invalid{
+	background-color: yellow;
+}*/
+
+/*input:invalid{
+	border: 1px solid blue;
+}
+
+input:invalid{
+	border: 1px solid white;
+}*/

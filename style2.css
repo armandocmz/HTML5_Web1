@@ -1,0 +1,24 @@
+
+aside,nav,section,article,footer{
+	display: block;
+	padding: 5px;
+	margin: 5px;
+	background-color: lightgreen;
+}
+
+section{
+	float: left;
+	width: 75%;
+}
+article{
+	background-color: lightblue;
+}
+aside{
+	float:right;
+	width:20%;
+}
+footer{
+	clear: both;
+	text-align: center;
+}
+

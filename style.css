@@ -1,0 +1,14 @@
+nav,section,article,footer{
+	display: block;
+	padding: 5px;
+	margin: 5px;
+	background-color: lightblue;
+}
+section{
+
+}
+footer{
+	background-color: lightblue;
+	clear: both;
+	text-align: center;
+}
